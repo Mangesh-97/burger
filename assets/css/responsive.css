@@ -1,0 +1,58 @@
+@media screen and (max-width: 767px) {
+    .main-content {
+        padding: 20px 0 102px 0;
+    }
+
+    .nav-m {
+
+        margin-bottom: 52px;
+    }
+
+    .nav-list a {
+        padding: 20px 5px !important;
+
+    }
+
+    .main-heading {
+        font-size: 52px;
+        margin-bottom: 42px;
+    }
+
+
+    .main-para {
+        font-size: 22px;
+        margin-bottom: 52px;
+
+    }
+
+    .chef {
+        display: none;
+    }
+
+
+
+    .best-burger,
+    .big-burger {
+        display: none;
+    }
+
+    .statistics {
+        display: none;
+    }
+
+    .package {
+        display: none;
+    }
+
+    .back {
+        display: none;
+    }
+
+    .footer {
+        display: none;
+    }
+
+    .update {
+        display: none;
+    }
+}

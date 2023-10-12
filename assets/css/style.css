@@ -1,0 +1,464 @@
+.main {
+    background-image: url('../img/main.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    /* background-attachment: fixed; */
+
+}
+
+section {
+    height: 100vh;
+}
+
+
+.main-content {
+    background: linear-gradient(180deg, black, transparent);
+    padding: 56px 90px 102px 90px;
+
+}
+
+.nav-m {
+
+    background-color: transparent;
+    margin-bottom: 96px;
+}
+
+.nav-list a {
+    font-size: 25px;
+    font-weight: 600px;
+    padding: 26px 36px !important;
+    text-transform: uppercase;
+    color: #fff !important;
+}
+
+.main-heading {
+    font-size: 91px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 42px;
+}
+
+
+.main-para {
+    font-size: 32px;
+    color: #fff;
+    margin-bottom: 52px;
+
+}
+
+.order-btn {
+    padding: 15px 74px;
+    background-color: #f64b3c;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 40px;
+}
+
+/* /////////////chef////////////// */
+
+
+.chef {
+    background-color: #f6eedf;
+    position: relative;
+}
+
+
+.burger,
+.fries,
+.leaf,
+.mashroom,
+.vegi,
+.shimla {
+    position: absolute;
+}
+
+.burger {
+    top: 150px;
+    right: 150px;
+}
+
+.shimla {
+    bottom: 400px;
+    right: 90px;
+}
+
+.mashroom {
+    bottom: 200px;
+    right: 30%;
+}
+
+.leaf {
+    bottom: 200px;
+    left: 30%;
+}
+
+.fries {
+    top: 30%;
+    left: 0;
+}
+
+.vegi {
+    top: 10%;
+    left: 10%;
+}
+
+.chef-content {
+    padding: 120px 90px 142px 90px;
+}
+
+.chef-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.sec-heading {
+    font-size: 64px;
+    font-weight: bold;
+    color: #f64b3c;
+    margin-bottom: 46px;
+}
+
+.sec-para {
+    font-size: 25px;
+    color: #f64b3c;
+    margin-bottom: 72px;
+}
+
+
+.chef-content img {
+    margin-bottom: 18px;
+}
+
+.tri-heading {
+    font-size: 33px;
+    font-weight: bold;
+    color: #f64b3c;
+    margin-bottom: 22px;
+    text-transform: uppercase;
+}
+
+.tri-text {
+    font-size: 25px;
+    font-weight: 500;
+    color: #f64b3c;
+}
+
+/* ////////////////////////Burger///////////////////////////////////// */
+.best-burger,
+.big-burger {
+    background-color: #f64b3c;
+    padding: 168px 90px 146px 90px;
+}
+
+.big-burger {
+    position: relative;
+}
+
+
+.burger2,
+.fries2,
+.leaf2,
+.mashroom2,
+.vegi2,
+.shimla2 {
+    position: absolute;
+}
+
+.burger2 {
+    top: 5%;
+    right: 50%;
+    transform: rotate(300deg);
+}
+
+.shimla2 {
+    top: 10%;
+    left: 90px;
+}
+
+.mashroom2 {
+    bottom: 10%;
+    right: 50%;
+}
+
+.leaf2 {
+    top: 200px;
+    right: 10%;
+}
+
+.fries2 {
+    bottom: 3%;
+    right: 5%;
+    transform: rotate(300deg);
+}
+
+.vegi2 {
+    bottom: 23%;
+    left: 15%;
+    transform: rotate(80deg);
+
+}
+
+
+.pri-heading-2 {
+    font-size: 75px;
+    color: #f64b3c;
+    font-weight: bold;
+    margin-top: 72px;
+    margin-bottom: 36px;
+
+}
+
+.pri-para-2 {
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 68px;
+}
+
+.best-burger .order-btn {
+    background-color: #fff;
+    color: #f64b3c;
+    margin-bottom: 52px;
+}
+
+.best-burger-img,
+.big-burger-img {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.big-burger {
+    background-color: #f6eedf;
+
+}
+
+
+.big-burger .pri-heading-2 {
+    font-size: 75px;
+    font-weight: bold;
+    margin-bottom: 36px;
+
+}
+
+.big-burger .pri-para-2 {
+    font-size: 30px;
+    color: #f64b3c;
+    margin-bottom: 68px;
+}
+
+/* /////////////////////////////////statistic */
+
+.statistics {
+    background-color: #f64b3c;
+    padding: 120px 90px 176px 90px;
+}
+
+.stat-heading {
+    font-size: 62px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 46px;
+}
+
+.stat-para {
+    font-size: 25px;
+    color: #fff;
+    margin-bottom: 102px;
+}
+
+
+
+
+.stat-circle {
+    border: 5px solid #fff;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+.stat-count {
+    font-size: 102px;
+    color: #fff;
+    text-align: center;
+}
+
+
+
+/* /////////.package///////////// */
+
+.package {
+    padding: 92px 90px 76px 90px;
+    background-color: #f6eedf;
+    position: relative;
+}
+
+
+.package .pri-heading-2 {
+    margin-bottom: 138px;
+}
+
+.package p {
+    font-size: 20px;
+    color: #f64b3c;
+}
+
+.package .card {
+    width: 350px;
+    margin: 0 auto;
+}
+
+/* ////////////////back//////////////// */
+
+.back {
+    background-image: url('../img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.back-heading {
+    margin-bottom: 86px;
+    font-size: 36px;
+    color: #fff;
+}
+
+.back-head {
+    font-size: 45px;
+    color: #fff;
+    font-weight: bold;
+
+}
+
+.back-content {
+    height: 100vh;
+    background: rgba(246, 75, 60, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ////////////update////////////////////// */
+
+
+
+
+
+.update {
+    background-color: #f6eedf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+.burger3,
+.fries3,
+.leaf3,
+.leaf33,
+.mashroom3,
+.vegi3,
+.shimla3,
+.shimla33 {
+    position: absolute;
+}
+
+.burger3 {
+    top: 15%;
+    right: 20%;
+}
+
+.shimla3 {
+    top: 10%;
+    left: 45%;
+}
+
+.shimla33 {
+    bottom: 10%;
+    right: 15%;
+    transform: rotate(70deg);
+}
+
+.mashroom3 {
+    bottom: 50%;
+    left: 10%;
+}
+
+
+.leaf3 {
+    top: 10%;
+    left: 20%;
+}
+
+.leaf33 {
+    bottom: 5%;
+    left: 45%;
+}
+
+.fries3 {
+    bottom: 10%;
+    left: 15%;
+    transform: rotate(300deg);
+}
+
+.vegi3 {
+    bottom: 40%;
+    right: 15%;
+    transform: rotate(80deg);
+
+}
+
+
+.update .pri-para-2 {
+    color: #f64b3c !important;
+    margin-bottom: 80px;
+}
+
+.update input {
+    padding: 34px 38px !important;
+    font-size: 25px;
+    color: #835e3f;
+    border-radius: 40px 0 0 40px;
+    width: 73% !important;
+}
+
+.update .order-btn {
+    font-size: 25px;
+    font-weight: 400;
+    border-radius: 0 40px 40px 0;
+}
+
+/* /////////footer////////////// */
+
+.footer {
+    padding: 230px 90px 284px 90px;
+    background-color: #222222;
+}
+
+.footer-title {
+    font-size: 31px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 36px;
+}
+
+.footer-text {
+    font-size: 24px;
+    color: #fff;
+
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
